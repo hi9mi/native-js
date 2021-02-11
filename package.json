@@ -1,0 +1,17 @@
+{
+	"name": "js-native-app",
+	"version": "1.0.0",
+	"description": "js",
+	"main": "src/index.js",
+	"license": "MIT",
+	"dependencies": {
+		"yarn": "^1.22.10"
+	},
+	"scripts": {
+		"serve": "parcel ./src/index.html -p 4200 --open",
+		"build": "parcel build ./src/index.html --no-source-maps"
+	},
+	"devDependencies": {
+		"parcel-bundler": "^1.12.4"
+	}
+}
